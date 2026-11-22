@@ -1,0 +1,36 @@
+Buatkan kode website lengkap (single-file HTML dengan Tailwind CSS dan JavaScript interaktif) untuk profil lembaga filantropi Islam fiktif yang berfokus pada **Filantropi Tenaga (Kerja Nyata & Kerelawanan Sosial)** dengan nama lembaga **"Griya Karya Amil (GKA)"** (buatkan logo SVG orisinal bertema kepedulian/arsitektur sederhana, JANGAN meniru nama, warna khas, atau tampilan Dompet Dhuafa).
+
+Pastikan seluruh ketentuan wajib berikut terpenuhi secara ketat di dalam kode:
+
+1. **Tampilan & Responsivitas (W1 & W8):**
+   - Desain modern, bersih, bernuansa hijau zamrud (emerald) dan krem hangat.
+   - Wajib responsif 100% di layar HP (mobile-first, tanpa horizontal scroll/geser ke samping) dan memiliki navigasi menu yang mudah diakses di HP maupun desktop.
+
+2. **Banner Status Simulasi (W6):**
+   - Pasang banner mencolok (sticky top bar atau selalu terlihat di setiap bagian/halaman) bertuliskan: **"SIMULASI – TUGAS KULIAH"** dengan keterangan bahwa seluruh data, transaksi, dan rekening adalah fiktif untuk keperluan akademik.
+   - Semua nomor rekening bank dan e-wallet yang ditampilkan wajib menggunakan nomor fiktif/placeholder (contoh: Bank Syariah Fiktif 0000-1234-5678 a.n. Simulasi Griya Karya Amil).
+
+3. **Struktur Navigasi 7 Halaman/Bagian Wajib (W2):**
+   Buat sistem navigasi tab atau section terpisah yang jelas untuk 7 bagian berikut:
+   - **Bagian 1: Beranda** (Nama lembaga, logo SVG, tagline, Visi & Misi, ringkasan dampak kerja nyata, dan tombol ajakan berdonasi/menjadi relawan).
+   - **Bagian 2: Profil & Pengurus (W3)** (Latar belakang lembaga dan profil pengurus. Cantumkan **Fariha Fauziah, S.E., M.Sc** (NIM: **24108010109**) sebagai **Pendiri & Ketua Lembaga** dengan placeholder foto profil `<img src="foto-fariha.jpg" alt="Fariha Fauziah">` yang diberi catatan agar mudah diganti dengan foto asli non-AI. Cantumkan juga 3 nama rekan mahasiswa sebagai Koordinator Relawan Lapangan, Bendahara, dan Pengawas Syariah Internal).
+   - **Bagian 3: Program (10 Poin Lengkap - W4)** (Buat program unggulan bertajuk **"Aksi Bedah Sarana & Sanitasi Musholla Dhuafa (ABSSM)"** serta **"Dapur Umum & Renovasi Ringan Rumah Lansia"**. Uraikan secara spesifik dan mendalam **10 Poin Proses Program** dari penghimpunan hingga evaluasi—bukan teks generik—meliputi:
+     1. Penghimpunan (target nominal operasional Rp15.000.000 & target 40 relawan kerja nyata, kanal kampanye digital).
+     2. Penerimaan & Pencatatan (mekanisme bukti setor, nomor transaksi, pencatatan jam kerja relawan).
+     3. Pemisahan per Akad & Jenis Filantropi (pemisahan ketat antara dana Zakat, Infaq/Sedekah, Wakaf Material, serta pencatatan non-tunai berupa Filantropi Tenaga/jam kerja relawan).
+     4. Pengelolaan & Hak Amil (alokasi persentase dan rupiah transparan, hak amil zakat ditetapkan sebesar 10%—tidak melebihi batas maksimal 1/8 atau 12,5%—serta rincian biaya operasional material).
+     5. Identifikasi & Verifikasi Penerima (kriteria asnaf fakir/miskin dan fi sabilillah, metode survei lokasi, surat pengantar RT/takmir, dan wawancara).
+     6. Perencanaan Program Penyaluran (skema program produktif-sosial berbasis kerja nyata, jadwal pelaksanaan, lokasi fiktif di wilayah DIY, dan penanggung jawab/PIC tiap divisi).
+     7. Pendistribusian / Pendayagunaan (pelaksanaan renovasi ringan, pengecatan masjid, perbaikan sanitasi, dan distribusi logistik kerja bakti).
+     8. Pelaporan kepada Donatur (sistem transparansi arus kas dan laporan jam kontribusi relawan).
+     9. Pengawasan & Audit (mekanisme pemeriksaan oleh Bendahara, Pengawas Syariah Internal, dan perwakilan Takmir/Mitra).
+     10. Evaluasi Dampak & Tindak Lanjut (indikator kelayakan sarana sebelum vs sesudah, kendala lapangan, dan rencana pemeliharaan berkala).
+   - **Bagian 4: Donasi & Kampanye** (Menampilkan progress bar target penghimpunan dana material & pendaftaran relawan tenaga, kalkulator simulasi donasi infaq/sedekah/zakat sederhana, serta pilihan kanal pembayaran fiktif).
+   - **Bagian 5: Laporan & Transparansi (W5)** (Wajib menyajikan angka yang konsisten dan seimbang secara matematis dengan rumus: **Dana Masuk = Dana Tersalur + Hak Amil/Biaya + Sisa Dana**. Misalnya: Total Dana Masuk Rp15.000.000 = Dana Tersalur untuk Material & Bantuan Rp12.000.000 + Hak Amil (10% dari pos zakat) & Biaya Operasional Relawan Rp1.500.000 + Sisa Dana Saldo Kas Rp1.500.000. Sajikan pula:
+     - Tabel rekap penerimaan donatur (nama disamarkan, kode transaksi, akad, nominal) & rekap daftar hadir jam kerja relawan.
+     - Tabel/diagram pemisahan dana per akad (Zakat, Infaq/Sedekah, Wakaf, dan konversi nilai Filantropi Tenaga).
+     - Hasil audit internal singkat dan tabel indikator Evaluasi Dampak Sebelum vs Sesudah).
+   - **Bagian 6: Galeri Bukti** (Menampilkan kartu profil penerima manfaat/takmir mitra tanpa data pribadi sensitif/NIK/alamat lengkap beserta status verifikasinya, serta grid galeri dokumentasi simulasi kegiatan kerja nyata lengkap dengan keterangan tanggal, lokasi, dan catatan kelengkapan bukti fisik seperti daftar hadir relawan & surat keterangan mitra).
+   - **Bagian 7: Kontak & Footer (W7)** (Formulir simulasi pendaftaran relawan/pertanyaan donatur, kontak narahubung fiktif, dan pada **Footer** wajib mencantumkan pernyataan transparansi AI: *"Website ini dikembangkan dengan bantuan AI ([Nama AI yang dipakai] untuk penyusunan struktur kode dan draf teks), sementara seluruh konsep program filantropi dan verifikasi konten dipertanggungjawabkan oleh Fariha Fauziah (24108010109)."*).
+
+Gunakan bahasa Indonesia yang formal, empatik, akuntabel, dan sesuai kaidah ekonomi syariah.
